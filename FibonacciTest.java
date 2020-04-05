@@ -2,7 +2,6 @@ package main;
 
 import org.junit.Test;
 
-// dodaj pole do klasy Fibonacci, w którym bedziesz przechowywała przekazana wartosc n
 import static org.junit.Assert.assertEquals;
 
 public class FibonacciTest {
