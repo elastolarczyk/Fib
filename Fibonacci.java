@@ -2,7 +2,7 @@ package main;
 
 public class Fibonacci {
 
-    private  int valN; // pole do przechowywania zmiennej n
+    private  int valN;
 
     public Fibonacci(int valN)
     {
@@ -22,7 +22,7 @@ public class Fibonacci {
         }
         else
         {
-            return fibb(n - 1) + fibb(n - 2);//dlaczego mając tu wartość valN wychodzą błędne wyniki
+            return fibb(n - 1) + fibb(n - 2);
         }
     }
 /*
